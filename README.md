@@ -31,4 +31,8 @@ javac merge_ec_counts.java
 javac merge_ec_counts ~/globus/meta.txt
 ```
 
-
+## get subset 
+```
+javac subset_ec_interested.java
+java subset_ec_interested EC.all.count.txt ec_interested.txt ec_count_subset.txt
+```
